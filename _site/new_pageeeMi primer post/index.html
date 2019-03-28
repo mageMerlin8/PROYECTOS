@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Search &#8211; Proyectos</title>
+<title>Proyectos</title>
 <meta name="description" content="Algunos proyectos realizados por Emilio Mena">
 
 
@@ -14,9 +14,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Search">
+<meta property="og:title" content="Proyectos">
 <meta property="og:description" content="Algunos proyectos realizados por Emilio Mena">
-<meta property="og:url" content="http://0.0.0.0:4000/search/">
+<meta property="og:url" content="http://0.0.0.0:4000/new_pageeeMi%20primer%20post/">
 <meta property="og:site_name" content="Proyectos">
 <meta property="og:image" content="http://0.0.0.0:4000/images/images/logo.png">
 
@@ -24,7 +24,7 @@
 
 
 
-<link rel="canonical" href="http://0.0.0.0:4000/search/">
+<link rel="canonical" href="http://0.0.0.0:4000/new_pageeeMi%20primer%20post/">
 <link href="http://0.0.0.0:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Proyectos Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -63,7 +63,7 @@
 
 </head>
 
-<body id="post-index">
+<body id="page">
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 
@@ -96,9 +96,9 @@
 <div class="entry-header">
   <div class="header-title">
     <div class="header-title-wrap">
-      <h1>Search</h1>
+      <h1></h1>
       
-        <h2><span class="entry-date"><time>&nbsp;</time></span></h2>
+        <h2><span class="entry-date date published updated"><time datetime="2019-03-28T00:20:07-06:00">March 28, 2019</time></span></h2>
       
 
       
@@ -125,29 +125,24 @@
 
 
 <div id="main" role="main">
-  <article>
-  <div style="text-align: center">
-    <h3>Finds a post by title, tag, category, date and url.</h3>
-    <input type="text" id="search-input"/>
-  </div>
-  <h3>Results:</h3>
-	<ul id="results-container">
-	</ul>
-</article><!-- /.hentry -->
+  <article class="hentry">
+    <div class="entry-content">
+      
 
-<script type="text/javascript">
+      <footer class="entry-meta">
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:4000/new_pageeeMi%20primer%20post/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://0.0.0.0:4000/new_pageeeMi%20primer%20post/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://0.0.0.0:4000/new_pageeeMi%20primer%20post/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
 
-  window.onload = function(){
-    new SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: 'http://0.0.0.0:4000/search.json',
-      searchResultTemplate: '<li class="entry-title"><a href="{url}" title="{title}">{title}</a></li>'
-    });
-  }
-
-</script>
-
+      </footer>
+    </div><!-- /.entry-content -->
+    
+  </article>
 </div><!-- /#main -->
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -155,6 +150,7 @@
 <script type="text/javascript" src="http://0.0.0.0:4000/assets/js/scripts.min.js"></script>
 <script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 
 
 
