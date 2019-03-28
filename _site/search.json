@@ -4,7 +4,7 @@
       "title"    : "Mi Primer Post",
       "category" : "",
       "tags"     : "",
-      "url"      : "http://0.0.0.0:4000/mi-primer-post/",
+      "url"      : "http://localhost:4000/mi-primer-post/",
       "date"     : "2019-03-28 00:18:35 -0600"
     } 
   
